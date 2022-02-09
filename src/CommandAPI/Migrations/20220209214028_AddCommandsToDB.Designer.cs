@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CommandAPI.Migrations
 {
     [DbContext(typeof(CommandContext))]
-    [Migration("20220209204552_AddCommandsToDB")]
+    [Migration("20220209214028_AddCommandsToDB")]
     partial class AddCommandsToDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
